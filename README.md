@@ -1,4 +1,4 @@
-# AWS SageMaker Groundtruth WorkerActivity Tracker Slack Bot
+# AWS SageMaker Groundtruth Activity Tracker Slack Bot
 
 *This repo is created to track the image labeling performance of your private workforce on SageMaker Groundtruth.*
 
