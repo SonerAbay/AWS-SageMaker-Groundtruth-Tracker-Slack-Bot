@@ -1,6 +1,6 @@
 # AWS SageMaker Groundtruth Activity Tracker Slack Bot
 
-*This repo is created to track the image labeling performance of your private workforce on SageMaker Groundtruth.*
+*This repo is created to track the image labeling performance of our private workforce on SageMaker Groundtruth for emoty.AI*
 
 You need to create your own mysql server to make it work. You can delete send_telegram function in storeLabel if you are not interested in getting notified for every single labeling action.
 
