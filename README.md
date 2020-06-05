@@ -10,9 +10,9 @@ You need to create your own mysql server to make it work. You can delete send_te
 
 2. Create a lambda function on AWS for storing label to the database.
 
-3. Go to CloudWatch log groups and find: /aws/sagemaker/groundtruth/WorkerActivity. Click on Actions -> Subscriptions -> Create Lambda subscription filter. Choose the function you created earlier. (If you don't see WorkerActivity on the log groups use groundtruth to label some images then it will create the log files automatically.) This will trigger your lambda function for each worker activity.
+3. Go to CloudWatch log groups and find: /aws/sagemaker/groundtruth/WorkerActivity. ```Click on Actions -> Subscriptions -> Create Lambda subscription filter``` Choose the function you created earlier. (If you don't see WorkerActivity on the log groups use groundtruth to label some images then it will create the log files automatically.) This will trigger your lambda function for each worker activity.
 
-4. Go to your lambda function and upload lambda.zip in aws-lambda-storeLabel directory from the "Code Entry Type" menu.
+4. Go to your lambda function and upload lambda.zip in aws-lambda-storeLabel directory from the **Code Entry Type** menu.
 
 5. Create 3 api gateways for your slash commands with public access on AWS.
 
