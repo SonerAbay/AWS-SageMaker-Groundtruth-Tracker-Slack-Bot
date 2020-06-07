@@ -27,3 +27,8 @@ After creating a lambda function on AWS, upload ```myscore```, ```teamscore``` a
 9. Add your slackbot to your workspace.  
 
 **Note:** If you want, you can handle all of the requests with a single api gateway and lambda function. If you want to do it, you should process the command in the invoke event.
+
+## TO DO:
+- Create ranks for gamification purposes
+- Show the number of ensuing days a user completed the daily task(streak)
+- Record the number of daily wins and show in the slack bot
